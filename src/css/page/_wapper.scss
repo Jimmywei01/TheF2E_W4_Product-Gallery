@@ -42,12 +42,75 @@ div {
     text-align: center;
 }
 
-.menStyle1{
+.menStyle_outfit {
+   position: relative;
    grid-column: 1/span 4;
    grid-row: 3/ span 4;
    background-image: url("https://images.unsplash.com/photo-1513827379601-9dba5099a3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1acdd78f34ee75aade9e313251bb1695&auto=format&fit=crop&w=668&q=80");
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: left;
+   background-position: center;
 
+}
+
+.title_outfit{
+    margin: 0;
+    font-size: 48px;
+    line-height: 48px;        
+    transform: translateY(-25%);
+    &::before{
+        content: "LINEN BLAZER";
+        position: absolute;
+        transform: translateY(-60%);
+        overflow: hidden;
+        color: rgba(0, 0, 0, 0.3);
+        height: 24px;
+    }
+    &::after {
+        content: "LINEN BLAZER";
+        position: absolute;
+        transform: translateY(-90%);
+        overflow: hidden;
+        color: rgba(0, 0, 0, 0.1);
+        height: 24px;
+        left: 0;
+    }
+}
+
+.block_outfit{
+    position: absolute;
+    transform: translate(300px, -100px);
+    z-index: -1;
+    border: 20px solid $f2eW1-second;
+    width: 240px;
+    height: 200px;
+}
+
+.subTitle_outfit{
+    position: absolute;
+    width: 100%;
+    left: 250px;
+    top: 340px;
+    transform: rotate(-270deg);
+    font-size: 24px;
+    color: $f2eW1-first;
+    text-align: center;
+    font-weight: bold;
+}
+
+.number_outfit{
+      position: absolute;
+      top: 100%;
+      font-size: 48px;
+      font-weight: bold; 
+}
+
+.styleBlock_outfit{
+     background: url(https://hexschool.github.io/THE_F2E_Design/week4-product%20gallery/assets/pattern%20unit.png);
+     top: 100%;
+     width: 240px;
+     height: 100px;
+     margin-left: 8px;
+     position: absolute;
+     margin-left: 62px;
 }
