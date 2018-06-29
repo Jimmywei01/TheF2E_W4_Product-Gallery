@@ -42,6 +42,8 @@ div {
     text-align: center;
 }
 
+
+//.menStyle_outfit
 .menStyle_outfit {
    position: relative;
    grid-column: 1/span 4;
@@ -76,8 +78,6 @@ div {
         left: 0;
     }
 }
-
-//.menStyle_outfit
 
 .block_outfit{
     position: absolute;
@@ -120,5 +120,8 @@ div {
 //.menStyle_basice
 
 .menStyle_basice{
-    
+    position: relative;
+    grid-column: 6/ span 2;
+    grid-row: 4/ span 2;
+    background-image:url()
 }
